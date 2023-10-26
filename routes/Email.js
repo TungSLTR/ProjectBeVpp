@@ -6,8 +6,8 @@ var transporter = nodemailer.createTransport({
     port: 465,
     service: 'gmail',
     auth: {
-        user: 'phuthuyjay04@gmail.com',
-        pass: 'yrtrrfgwpdgphdga'
+        user: 'thanhtung17112003@gmail.com',
+        pass: 'wxrdyvyvdxxuaveu'
     }
 });
 
@@ -16,7 +16,7 @@ var transporter = nodemailer.createTransport({
 router.post('/admin/payment/mail-thanhtoan', (req, res) => {
     const { email, tenkh } = req.body
     const mailOptions = {
-        from: 'phuthuyjay04@gmail.com',
+        from: 'thanhtung17112003@gmail.com',
         to: email,
         subject: 'Thông tin đơn hàng đã đặt',
         html: `

@@ -189,8 +189,8 @@ var transporter = nodemailer.createTransport({
     port: 465,
     service: 'gmail',
     auth: {
-        user: 'phuthuyjay04@gmail.com',
-        pass: 'yrtrrfgwpdgphdga'
+        user: 'thanhtung17112003@gmail.com',
+        pass: 'wxrdyvyvdxxuaveu'
     }
 });
   
@@ -212,7 +212,7 @@ var transporter = nodemailer.createTransport({
   
     
       const mailOptions = {
-        from: 'phuthuyjay04@gmail.com',
+        from: 'thanhtung17112003@gmail.com',
         to: email,
         subject: 'Khôi phục mật khẩu',
         text: `Mã khôi phục mật khẩu của bạn là: ${resetCodene}`
